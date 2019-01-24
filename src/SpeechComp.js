@@ -98,6 +98,7 @@ class SpeechComp extends Component {
             <button className="playButton" onClick={() => this.speak(1)}>
               Button 1
             </button>
+            <button>Param Modal</button>
           </div>
           <div id="step2" className="inputButtonContainer">
             <input

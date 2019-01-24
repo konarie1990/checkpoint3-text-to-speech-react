@@ -17,11 +17,13 @@
 }
 
 .sequenceContainer {
+  padding: 20px;
   width: auto;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 50px;
+  grid-template-rows: 70px;
   grid-column-gap: 2px;
+  grid-row-gap: 2px;
   grid-template-areas:
     "step1 step2 step3 step4 step5 step6 step7 step8"
     "step9 step10 step11 step12 step13 step14 step15 step16";
@@ -29,64 +31,80 @@
 
 #step1 {
   border: solid 1px red;
+  background-color: red;
 }
 
 #step2 {
   border: solid 1px orange;
+  background-color: orange;
 }
 
 #step3 {
   border: solid 1px yellow;
+  background-color: yellow;
 }
 
 #step4 {
   border: solid 1px green;
+  background-color: green;
 }
 
 #step5 {
   border: solid 1px red;
+  background-color: red;
 }
 
 #step6 {
   border: solid 1px orange;
+  background-color: orange;
 }
 
 #step7 {
   border: solid 1px yellow;
+  background-color: yellow;
 }
 
 #step8 {
   border: solid 1px green;
+  background-color: green;
 }
 
 #step9 {
   border: solid 1px red;
+  background-color: red;
 }
 
 #step10 {
   border: solid 1px orange;
+  background-color: orange;
 }
 
 #step11 {
   border: solid 1px yellow;
+  background-color: yellow;
 }
 
 #step12 {
   border: solid 1px green;
+  background-color: green;
 }
 
 #step13 {
   border: solid 1px red;
+  background-color: red;
 }
 
 #step14 {
   border: solid 1px orange;
+  background-color: orange;
 }
 
 #step15 {
   border: solid 1px yellow;
+  background-color: yellow;
 }
 
 #step16 {
   border: solid 1px green;
+  background-color: green;
 }
