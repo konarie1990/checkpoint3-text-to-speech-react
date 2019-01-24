@@ -265,6 +265,9 @@ class SpeechComp extends Component {
             </button>
           </div>
         </div>
+        <button>"PLAY"</button>
+        <button>"STOP"</button>
+        <p>tempo slider =========|======= </p>
       </form>
     );
   }
